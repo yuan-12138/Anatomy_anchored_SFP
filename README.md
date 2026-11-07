@@ -6,13 +6,6 @@
 
 **Anonymous Authors**
 
-<!-- TODO: replace the # links once available -->
-[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b?style=flat-square)](#)
-[![Video](https://img.shields.io/badge/Video-YouTube-ff0000?style=flat-square&logo=youtube&logoColor=white)](#)
-[![Project Page](https://img.shields.io/badge/Project-Page-1f6feb?style=flat-square)](#)
-[![Status](https://img.shields.io/badge/Status-under%20review-6e7781?style=flat-square)](#)
-[![Code](https://img.shields.io/badge/Code-coming%20soon-lightgrey?style=flat-square)](#-roadmap)
-
 **Collect by hand. Deploy on robots.**
 
 <img src="assets/figures/overview.png" width="100%" alt="Overview of the anatomy-anchored imitation-learning framework">
@@ -205,34 +198,3 @@ Policies trained on freehand demonstrations were deployed on a second robot, a *
 All demonstrations were collected freehand with the acquisition platform under institutional ethics approval.
 
 ---
-
-## 🗺️ Roadmap
-
-- [x] Project page & README
-- [ ] Paper on arXiv
-- [ ] Hardware: CAD files for the handheld acquisition platform & bill of materials
-- [ ] Data acquisition & synchronization tools (ROS)
-- [ ] Training code for the anatomy-anchored Streaming Flow Policy
-- [ ] Anatomy-guided placement module
-- [ ] Robot deployment code (Franka / KUKA)
-- [ ] Pretrained checkpoints
-
-⭐ **Star / watch this repo** to get notified when the code is released.
-
----
-
-## Citation
-
-The BibTeX entry will be added after the review process.
-
-## Acknowledgements
-
-This work builds on [Streaming Flow Policy](https://arxiv.org/abs/2505.21851), [HSMR](https://arxiv.org/abs/2503.21751), [MediaPipe](https://developers.google.com/mediapipe), [π<sub>0</sub>](https://arxiv.org/abs/2410.24164) (baseline) and [EchoCare](https://arxiv.org/abs/2509.11752) (best-view selection encoder). We thank all volunteers who participated in the data collection and evaluation, and the physicians who rated the acquired images.
-
-## Contact
-
-For questions, please open an issue in this repository.
-
-## License
-
-To be announced with the code release.
