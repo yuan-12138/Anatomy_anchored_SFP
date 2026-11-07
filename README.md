@@ -182,19 +182,3 @@ Policies trained on freehand demonstrations were deployed on a second robot, a *
   </td>
   </tr>
 </table>
-
----
-
-## Dataset at a glance
-
-| Region | Task | Demos | Volunteers |
-|---|---|:-:|:-:|
-| Abdomen | Kidney | 69 | 5 |
-| Abdomen | Gallbladder | 60 | 5 |
-| Abdomen | Liver | 82 | 5 |
-| Forearm | Radial artery | 83 | 2 |
-| | **Total** | **294** | |
-
-All demonstrations were collected freehand with the acquisition platform under institutional ethics approval.
-
----
